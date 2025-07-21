@@ -50,13 +50,12 @@ You can download the datasets from the links above and place them in the `datase
 
 ## Training
 ```bash
-bash run_xxx.sh
+bash run_x-your-dataset-name-x.sh
 ``` 
-
 
 ## Evaluation
 ```bash
-bash run_eval.sh
+bash python text.py --dataset fairplay ...
 ```
 
 ## License and Citation
@@ -71,5 +70,5 @@ This project is licensed under the MIT License. Please see the [LICENSE](LICENSE
 ```
 
 ## Acknowledgements
-We acknowledge the use of the [FAIR-Play]() and [YouTube-360] datasets, as well as the [CCStereo]() repository for the foundational work that inspired this implementation. Special thanks to the authors of these works for their contributions to the field of audio-visual learning.
+We acknowledge the use of the [FAIR-Play](https://github.com/facebookresearch/FAIR-Play), [SPADE](https://github.com/NVlabs/SPADE) and [YouTube-360](https://github.com/pedro-morgado/spatialaudiogen). Special thanks to the authors of these works for their contributions to the field of audio-visual learning.
 

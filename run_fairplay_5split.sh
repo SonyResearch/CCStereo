@@ -3,6 +3,7 @@ for i in {1..5}; do
     split_name="split$i"
     echo "Processing split: $split_name"
     python3 train.py \
+        --dataset fairplay \
         --hdf5FolderPath $split_name \
         --model_config fairplay_base.json \
         --wandb_proj FAIRPLAY-5S \
