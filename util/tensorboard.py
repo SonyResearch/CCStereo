@@ -6,7 +6,7 @@ def config_wandb_logger(args):
     os.environ["WANDB_START_METHOD"] = "fork"
     os.environ["WANDB_SERVICE_WAIT"] = "30000"
     os.environ["WANDB__SERVICE_WAIT"] = "30000"
-    os.environ["WANDB_API_KEY"] = "ce5d4dbf4560979e87ff5a0a2d33bb48d9ff4c81"
+    os.environ["WANDB_API_KEY"] = "USE-YOUR-OWN-API"
     os.environ["WANDB_MODE"] = args.wandb_mode
     # os.environ["WANDB_MODE"] = "offline"
     # os.environ["WANDB_MODE"] = "disabled"
