@@ -54,8 +54,9 @@ bash run_x-your-dataset-name-x.sh
 ``` 
 
 ## Evaluation
+The pre-trained ckpt for FairPlay-5Split (split2) can be downloaded from [here](https://drive.google.com/file/d/1CqeV80mt0pZGGH3AN2dZMEv8hOj4mjyv/view?usp=sharing).
 ```bash
-bash python text.py --dataset fairplay ...
+bash python test.py --dataset fairplay ...
 ```
 
 ## License and Citation
