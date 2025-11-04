@@ -54,9 +54,9 @@ bash run_x-your-dataset-name-x.sh
 ``` 
 
 ## Evaluation
-The pre-trained ckpt for FairPlay-5Split (split2) can be downloaded from [here](https://drive.google.com/file/d/1CqeV80mt0pZGGH3AN2dZMEv8hOj4mjyv/view?usp=sharing).
+The pre-trained ckpt for FairPlay-5Split (split2) can be downloaded from [here](https://drive.google.com/file/d/1CqeV80mt0pZGGH3AN2dZMEv8hOj4mjyv/view?usp=sharing). A simple evaluation command is as follows:
 ```bash
-bash python test.py --dataset fairplay ...
+python test.py --dataset fairplay --setup 5splits --hdf5FolderPath split2 --epochs 1 --num_workers 1 --method_type m2b --data_vol_scaler 1 --audio_length 0.63 --wandb_name dry_run --wandb_mode disabled --batch_size 8 --model_config fairplay_base.json --multi_frames --dim_scale 1 --backbone 18
 ```
 
 ## License and Citation
